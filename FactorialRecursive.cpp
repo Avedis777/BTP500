@@ -3,6 +3,6 @@ unsigned int factorialRecursive (unsigned int n){
     if (n == 1 || n == 0)
         sum = 1;            
     else               
-        sum = n * factorial(n - 1);
+        sum = n * factorialRecursive(n - 1);
     return sum;
 }
