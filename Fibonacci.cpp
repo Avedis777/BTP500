@@ -1,5 +1,3 @@
-#include <iostream>
-
 unsigned int fibonacci (unsigned int n){
 	int a = 1;
 	if (n == 0)
